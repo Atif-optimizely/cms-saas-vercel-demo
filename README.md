@@ -41,9 +41,9 @@ After you've completed the CMS configuration instructions and collected the need
 | Environment variable | Instruction |
 | - | - |
 | OPTIMIZELY_CMS_URL | The URL where the Optimizely CMS can be reached by the build process; for example: `https://example.cms.optimizely.com/`
-| OPTIMIZELY_GRAPH_SECRET | The Content Graph Secret can be made visible on the CMS Dashboard, within the "Render Content" section. |
-| OPTIMIZELY_GRAPH_APP_KEY | The Content Graph App key, which is shown on the CMS Dashboard, within the "Render Content" section. |
-| OPTIMIZELY_GRAPH_SINGLE_KEY | The Content Graph Single key	, which is shown on the CMS Dashboard, within the "Render Content" section. |
+| OPTIMIZELY_GRAPH_APP_KEY | The Content Graph App key, which is shown on the CMS Dashboard as "App key", within the "Render Content" section. |
+| OPTIMIZELY_GRAPH_SECRET | The Content Graph Secret can be made visible on the CMS Dashboard as "secret", within the "Render Content" section. |
+| OPTIMIZELY_GRAPH_SINGLE_KEY | The Content Graph Single key	, which is shown on the CMS Dashboard as "Single key", within the "Render Content" section. |
 
 When the deployment has succeeded, the following steps are needed to both fix the "Page not found" on the homepage and enable  "Preview".
 
